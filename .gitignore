@@ -1,0 +1,9 @@
+# Ignore large sample data files
+SampleData/*.nii.gz
+*.nii.gz
+*.nii
+*.nrrd
+*.mha
+*.mhd
+*.raw
+*.zraw
