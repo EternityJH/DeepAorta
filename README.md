@@ -50,12 +50,12 @@ This project is released under the **[MIT License](./LICENSE)**. You are free to
 ## Citation
 If you use the DeepAorta module in your academic research, please refer to the format in `CITATION.cff` to cite this tool, or use the example below:
 ```bibtex
-@software{DeepAorta_2026,
-  author = {Your Name / AItewan Corp.},
-  title = {DeepAorta: An Automated Aorta Segmentation and Quantification Module for 3D Slicer},
+@article{Hong_2026,
+  author = {Hong, Jia-Sheng and Tzeng, Yun-Hsuan and Wu, Kuan-Ting and Huang, Shih-Yu and Wang, Ting Wei and Li, Guan-Yu and Lin, Chun-Yi and Liu, Ho-Ren and Fu, Hai-Neng and Lee, Yung-Tsai and Yin, Wei-Hsian and Wu, Yu-Te},
+  title = {Automated Aortic Quantification Based on Artificial Intelligence: Validation Using Contrast-Enhanced and Non-Contrast CT Scans from the Same Session},
+  journal = {Preprints},
   year = {2026},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/organization/DeepAorta}}
+  doi = {10.20944/preprints202602.1599.v1},
+  url = {https://www.preprints.org/manuscript/202602.1599}
 }
 ```

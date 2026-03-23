@@ -18,7 +18,7 @@ If you have completed the setup steps in [INSTALL.md](./INSTALL.md), you can use
 6. Once downloaded, the volume will automatically load into your 3D Slicer views.
 
 ## Step 2: Running the DeepAorta Module
-1. Switch to the **DeepAorta** module (using the Module Selector search bar, or finding it under the `AItewan` category).
+1. Switch to the **DeepAorta** module (using the Module Selector search bar, or finding it under the `DeepAorta` category).
 2. In the left configuration panel, verify:
    - **Input volume**: Ensure your downloaded image (e.g., `DeepAorta1`) is automatically selected. If not, manually select it.
    - **Model**: Select `TotalSegmentator` or `MONAI-Aorta` from the dropdown.

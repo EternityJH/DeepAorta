@@ -53,9 +53,9 @@ class DeepAorta(ScriptedLoadableModule):
         ScriptedLoadableModule.__init__(self, parent)
         self.parent.title = _("DeepAorta")  # TODO: make this more human readable by adding spaces
         # TODO: set categories (folders where the module shows up in the module selector)
-        self.parent.categories = [translate("qSlicerAbstractCoreModule", "AItewan")]
+        self.parent.categories = [translate("qSlicerAbstractCoreModule", "DeepAorta")]
         self.parent.dependencies = []  # TODO: add here list of module names that this module requires
-        self.parent.contributors = ["AItewan Corp."]  # TODO: replace with "Firstname Lastname (Organization)"
+        self.parent.contributors = ["DeepAorta Contributors"]  # TODO: replace with "Firstname Lastname (Organization)"
         # TODO: update with short description of the module and a link to online module documentation
         # _() function marks text as translatable to other languages
         self.parent.helpText = _("""

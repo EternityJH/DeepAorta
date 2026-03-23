@@ -33,12 +33,12 @@
 ## 引用本專案 (Citation)
 若您在學術研究中使用了 DeepAorta 模組輔助分析，請參考 `CITATION.cff` 中的格式引述此工具，或見下方範例：
 ```bibtex
-@software{DeepAorta_2026,
-  author = {Your Name / AItewan Corp.},
-  title = {DeepAorta: An Automated Aorta Segmentation and Quantification Module for 3D Slicer},
+@article{Hong_2026,
+  author = {Hong, Jia-Sheng and Tzeng, Yun-Hsuan and Wu, Kuan-Ting and Huang, Shih-Yu and Wang, Ting Wei and Li, Guan-Yu and Lin, Chun-Yi and Liu, Ho-Ren and Fu, Hai-Neng and Lee, Yung-Tsai and Yin, Wei-Hsian and Wu, Yu-Te},
+  title = {Automated Aortic Quantification Based on Artificial Intelligence: Validation Using Contrast-Enhanced and Non-Contrast CT Scans from the Same Session},
+  journal = {Preprints},
   year = {2026},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/organization/DeepAorta}}
+  doi = {10.20944/preprints202602.1599.v1},
+  url = {https://www.preprints.org/manuscript/202602.1599}
 }
 ```

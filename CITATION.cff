@@ -1,13 +1,17 @@
 cff-version: 1.2.0
 message: "If you use this software in your research, please cite it as below."
 authors:
-  - family-names: "AItewan"
-    given-names: "Corp."
-title: "DeepAorta: An Automated Aorta Segmentation and Quantification Module for 3D Slicer"
+  - family-names: "Hong"
+    given-names: "Jia-Sheng"
+  - family-names: "Tzeng"
+    given-names: "Yun-Hsuan"
+  - family-names: "Wu"
+    given-names: "Kuan-Ting"
+title: "Automated Aortic Quantification Based on Artificial Intelligence: Validation Using Contrast-Enhanced and Non-Contrast CT Scans from the Same Session"
 version: 1.0.0
-# doi: 10.5281/zenodo.1234
-date-released: 2026-03-20
-url: "https://github.com/organization/DeepAorta"
+date-released: 2026-02-26
+doi: 10.20944/preprints202602.1599.v1
+url: "https://www.preprints.org/manuscript/202602.1599"
 repository-code: "https://github.com/organization/DeepAorta"
 abstract: >-
   An open-source 3D Slicer extension module that automates aorta segmentation,

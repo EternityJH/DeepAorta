@@ -16,7 +16,7 @@
 6. 下載完成後，影像會自動載入到您的 3D Slicer 視窗中。
 
 ## 步驟二：執行 DeepAorta 模組
-1. 切換至 **DeepAorta** 模組（同樣從 Module Selector 的搜尋框中尋找，或置於 `AItewan` 類別內）。
+1. 切換至 **DeepAorta** 模組（同樣從 Module Selector 的搜尋框中尋找，或置於 `DeepAorta` 類別內）。
 2. 在左側的設定面板中，確認：
    - **Input volume**: 是否已自動選中您剛下載的 `DeepAorta1` 影像。如果沒有，請手動選擇。
    - **Model**: 從下拉選單中選擇 `TotalSegmentator` 或 `MONAI-Aorta`。
