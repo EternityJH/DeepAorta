@@ -93,7 +93,7 @@ def registerSampleData():
     SampleData.SampleDataLogic.registerCustomSampleDataSource(
         category="DeepAorta",
         sampleName="DeepAorta_CT",
-        thumbnailFileName=os.path.join(iconsPath, "DeepAorta.png"),
+        thumbnailFileName=os.path.join(os.path.dirname(__file__), "Resources", "Screenshots", "DeepAorta_CT.png"),
         uris="https://github.com/EternityJH/DeepAorta/releases/download/v1.0.0/Case_2_CT.nii.gz",
         fileNames="Case_2_CT.nii.gz",
         checksums="SHA256:844bc40e8cc55f07016e22cd9cf55c75c47db1901e3666b571e337f8103e522a",
@@ -104,7 +104,7 @@ def registerSampleData():
     SampleData.SampleDataLogic.registerCustomSampleDataSource(
         category="DeepAorta",
         sampleName="DeepAorta_CTA",
-        thumbnailFileName=os.path.join(iconsPath, "DeepAorta.png"),
+        thumbnailFileName=os.path.join(os.path.dirname(__file__), "Resources", "Screenshots", "DeepAorta_CTA.png"),
         uris="https://github.com/EternityJH/DeepAorta/releases/download/v1.0.0/Case_2_CTA.nii.gz",
         fileNames="Case_2_CTA.nii.gz",
         checksums="SHA256:3142adaefc445f1ba89609305cffbc8ca18b946a4f637539d72b0d438a72fcd4",
