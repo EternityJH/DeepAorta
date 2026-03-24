@@ -31,7 +31,7 @@ for i in range(len(pip_modules)):
     try:
         module_obj = __import__(pip_modules[i])
     except ImportError:
-        slicer.util.pip_install('pip install ' + install_modules[i])
+        slicer.util.pip_install(install_modules[i])
 
 import numpy as np
 import scipy.ndimage as ndimage

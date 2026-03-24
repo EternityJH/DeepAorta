@@ -11,7 +11,7 @@
   1. 開啟 Slicer 內建的 Python Console (按 `Ctrl + 3` 叫出 Python 終端機)。
   2. 手動輸入並執行以下指令繞過 SSL 或加上 Proxy:
      ```python
-     slicer.util.pip_install('pip install scikit-image pandas --proxy http://您的代理位址:埠號')
+     slicer.util.pip_install('scikit-image pandas --proxy http://您的代理位址:埠號')
      ```
   3. 安裝成功後重啟 Slicer。
 

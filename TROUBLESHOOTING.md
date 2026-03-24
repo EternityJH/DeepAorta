@@ -13,7 +13,7 @@ If you encounter unexpected errors or crashes while installing or using DeepAort
   1. Open Slicer's built-in Python Console (press `Ctrl + 3`).
   2. Manually execute the following command (adding your proxy if needed):
      ```python
-     slicer.util.pip_install('pip install scikit-image pandas --proxy http://your-proxy-address:port')
+     slicer.util.pip_install('scikit-image pandas --proxy http://your-proxy-address:port')
      ```
   3. Restart Slicer once successfully installed.
 
