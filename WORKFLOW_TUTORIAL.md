@@ -19,7 +19,7 @@ Ideal for analyzing individual patients or thoroughly inspecting intermediate st
 > [!TIP]
 > 📸 **DeepAorta UI Screenshot**
 >
-> <img src="Resources/Screenshots/module_ui.png" alt="DeepAorta UI" width="600">
+> <img src="Resources/Screenshots/module_ui.png" alt="DeepAorta UI" width="300">
 
 4. Click **Apply**.
 5. The module will sequentially execute the following pipeline:
