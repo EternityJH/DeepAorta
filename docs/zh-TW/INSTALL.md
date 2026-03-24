@@ -53,6 +53,7 @@ DeepAorta 需要幾個 Slicer 擴充套件才能正常運作。
    - 有個 `Input volume` 的選單
    - 看到 `Model` 的下拉選單 (TotalSegmentator 或 MONAI-Aorta)
    - 看到畫面下方有 `Batch Inference` 與 `Apply` 按鈕
+
 **這代表您已經成功安裝並掛載了 DeepAorta 模組！**
 
 ---

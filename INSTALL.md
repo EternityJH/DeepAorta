@@ -55,6 +55,7 @@ After restarting:
    - An `Input volume` selector
    - A `Model` dropdown (TotalSegmentator or MONAI-Aorta)
    - `Batch Inference` and `Apply` buttons at the bottom
+
 **This means you have successfully installed and loaded the DeepAorta module!**
 
 ---
