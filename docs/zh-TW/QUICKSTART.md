@@ -10,8 +10,9 @@
 5. 單擊一次 **DeepAorta_CT** 或 **DeepAorta_CTA**。系統將開始在背景下載該測試資料（請耐心等待，由於 3D 醫學影像較大，依賴網路速度）。
 
 > [!TIP]
-> 📸 **加入截圖建議**: 請在此處加入一張點擊下載 Sample Data `DeepAorta1` 的模組區塊截圖。
-> `![Sample Data Module](DeepAorta/Resources/Screenshots/sample_data.png)`
+> 📸 **Sample Data 模組截圖**
+>
+> ![Sample Data Module](../../Resources/Screenshots/sample_data.png)
 
 6. 下載完成後，影像會自動載入到您的 3D Slicer 視窗中。
 
@@ -30,8 +31,9 @@
 3. **數據表格 (Table)**: 出現名為 `Aorta Statistics with Thresholds and AUC` 的統計表，顯示包含最大直徑 (`Diameter_Max`) 等臨床意義數值。
 
 > [!TIP]
-> 📸 **加入截圖建議**: 請在此處加入一張 Slicer 滿版介面截圖，包含左側列表、3D展平主動脈、折線圖以及統計表。
-> `![Final Result Dashboard](DeepAorta/Resources/Screenshots/final_result.png)`
+> 📸 **最終分析結果截圖**
+>
+> ![Final Result Dashboard](../../Resources/Screenshots/final_result.png)
 
 ---
 **導覽 (Navigation):**

@@ -15,8 +15,9 @@ DeepAorta 模組專作於從腹部或胸部 CT 影像自動化分割並量化主
 3. 設定 Input volume 為您的掃描影像。
 
 > [!TIP]
-> 📸 **加入截圖建議**: 請在此處加入一張 DeepAorta 操作介面的截圖（也就是挑選好 Input volume 與 Model 後準備按下 Apply 的狀態）。
-> `![DeepAorta UI](DeepAorta/Resources/Screenshots/module_ui.png)`
+> 📸 **DeepAorta 操作介面截圖**
+>
+> ![DeepAorta UI](../../Resources/Screenshots/module_ui.png)
 
 4. 按下 **Apply**。
 5. 模組會自動執行以下流程：

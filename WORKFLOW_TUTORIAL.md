@@ -17,8 +17,9 @@ Ideal for analyzing individual patients or thoroughly inspecting intermediate st
 3. Set the `Input volume` to your scanned image.
 
 > [!TIP]
-> 📸 **Screenshot**: Please insert an image of the DeepAorta module UI showcasing the filled parameters right before hitting Apply.
-> `![DeepAorta UI](DeepAorta/Resources/Screenshots/module_ui.png)`
+> 📸 **DeepAorta UI Screenshot**
+>
+> ![DeepAorta UI](Resources/Screenshots/module_ui.png)
 
 4. Click **Apply**.
 5. The module will sequentially execute the following pipeline:

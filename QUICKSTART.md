@@ -12,8 +12,9 @@ If you have completed the setup steps in [INSTALL.md](./INSTALL.md), you can use
 5. Click either **DeepAorta_CT** or **DeepAorta_CTA** once. The system will start downloading the test data in the background (please be patient, as 3D medical images can be large depending on internet speed).
 
 > [!TIP]
-> 📸 **Screenshot**: Please insert an image showing the Sample Data module with DeepAorta1 clicked.
-> `![Sample Data Module](DeepAorta/Resources/Screenshots/sample_data.png)`
+> 📸 **Sample Data Module Screenshot**
+>
+> ![Sample Data Module](Resources/Screenshots/sample_data.png)
 
 6. Once downloaded, the volume will automatically load into your 3D Slicer views.
 
@@ -32,8 +33,9 @@ When finished, a dialog box will pop up saying "Operation completed successfully
 3. **Data Table**: A table named `Aorta Statistics with Thresholds and AUC` is generated, housing clinically significant metrics such as maximum diameter (`Diameter_Max`).
 
 > [!TIP]
-> 📸 **Screenshot**: Please insert an image showing the final result dashboard (Straightened Volume, the chart, and the table).
-> `![Final Result Dashboard](DeepAorta/Resources/Screenshots/final_result.png)`
+> 📸 **Final Result Dashboard Screenshot**
+>
+> ![Final Result Dashboard](Resources/Screenshots/final_result.png)
 
 ---
 **Navigation:**
