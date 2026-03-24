@@ -19,8 +19,8 @@ DeepAorta requires several Slicer extensions to function properly.
    - **PyTorch** (Required for GPU acceleration of the deep learning models)
 
 > [!TIP]
-> 📸 **Screenshot**: Please insert an image of the Extension Manager showing these installed modules here.
-> `![Extension Manager](Resources/Screenshots/extension_manager.png)`
+> 📸 **Extension Manager Screenshot**
+> ![Extension Manager](Resources/Screenshots/extension_manager.png)
 
 4. Once downloaded, please **Restart** 3D Slicer.
 5. **(Important) Verify GPU Acceleration**: After Slicer restarts, open the **PyTorch Util** module (you can find it via the search bar <kbd>Ctrl</kbd>+<kbd>F</kbd>). Check if CUDA is listed as available. If not, click the button to install PyTorch with CUDA support and restart Slicer again. This ensures fast inference times.
@@ -34,8 +34,8 @@ Because DeepAorta is a third-party module, you must add its folder to Slicer's m
 5. Browse and select the `DeepAorta` folder inside this project (the folder containing `DeepAorta.py`).
 
 > [!TIP]
-> 📸 **Screenshot**: Please insert an image of the Application Settings -> Modules window here.
-> `![Module Path Settings](Resources/Screenshots/module_path.png)`
+> 📸 **Module Path Settings Screenshot**
+> ![Module Path Settings](Resources/Screenshots/module_path.png)
 
 6. Click OK. Slicer will prompt you to restart to apply the new module paths.
 7. Restart 3D Slicer.
