@@ -4,7 +4,7 @@
 
 **DeepAorta** 是一款建構於 3D Slicer 之上的開源擴充模組，專精於主動脈 (Aorta) 的全自動分割、中心線萃取、血管拉直 (Straightening) 以及其沿長軸特徵的自動化幾何量化 (面積與最大直徑計算)。
 
-<img src="Resources/Icons/DeepAorta.png" alt="DeepAorta" width="500">
+<img src="Resources/Icons/DeepAorta.png" alt="DeepAorta" width="50">
 
 ## 核心特徵 (Key Features)
 * **一鍵化流程**: 輸入 CT 影像後自動執行多模型分割 (基於 TotalSegmentator / MONAI)、模型萃取成血管中心線與拉直重構。
