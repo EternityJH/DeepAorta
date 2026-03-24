@@ -38,6 +38,8 @@ We have prepared comprehensive documentation to help you install and use this ex
 2. **[Quickstart (QUICKSTART.md)](./QUICKSTART.md)**: Download built-in sample data to quickly verify module functionality.
 3. **[Workflow Tutorial (WORKFLOW_TUTORIAL.md)](./WORKFLOW_TUTORIAL.md)**: Detailed instructions covering both single-case and batch inference modes.
 4. **[Troubleshooting (TROUBLESHOOTING.md)](./TROUBLESHOOTING.md)**: Solutions for common issues like OOM (Out of Memory) crashes or missing dependencies.
+5. **[Dependency Inventory (dependency_inventory.md)](./dependency_inventory.md)**: Breakdown of built-in Slicer modules and Python package dependencies.
+6. **[Version Compatibility (version_compatibility_matrix.md)](./version_compatibility_matrix.md)**: Recommended Slicer versions and hardware risk assessment.
 
 ## Support & Feedback
 If you encounter issues or have suggestions for code improvements:
