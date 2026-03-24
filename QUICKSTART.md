@@ -6,10 +6,10 @@ If you have completed the setup steps in [INSTALL.md](./INSTALL.md), you can use
 
 ## Step 1: Downloading Sample Data
 1. Open 3D Slicer.
-2. Click the `Module Selector` dropdown at the top (defaults to Welcome to Slicer).
-3. Find and open the **Sample Data** module under the `Data` category or via the search bar.
+2. Open the **Module Finder** by pressing <kbd>Ctrl</kbd>+<kbd>F</kbd>.
+3. Search for and open the **Sample Data** module.
 4. Scroll down to find the **DeepAorta** category.
-5. Click either **DeepAorta1** or **DeepAorta2** once. The system will start downloading the test data in the background (please be patient, as 3D medical images can be large depending on internet speed).
+5. Click either **DeepAorta_CT** or **DeepAorta_CTA** once. The system will start downloading the test data in the background (please be patient, as 3D medical images can be large depending on internet speed).
 
 > [!TIP]
 > 📸 **Screenshot**: Please insert an image showing the Sample Data module with DeepAorta1 clicked.
@@ -18,9 +18,9 @@ If you have completed the setup steps in [INSTALL.md](./INSTALL.md), you can use
 6. Once downloaded, the volume will automatically load into your 3D Slicer views.
 
 ## Step 2: Running the DeepAorta Module
-1. Switch to the **DeepAorta** module (using the Module Selector search bar, or finding it under the `DeepAorta` category).
+1. Switch to the **DeepAorta** module (using the Module Finder <kbd>Ctrl</kbd>+<kbd>F</kbd>).
 2. In the left configuration panel, verify:
-   - **Input volume**: Ensure your downloaded image (e.g., `DeepAorta1`) is automatically selected. If not, manually select it.
+   - **Input volume**: Ensure your downloaded image (e.g., `DeepAorta_CT_Sample`) is automatically selected. If not, manually select it.
    - **Model**: Select `TotalSegmentator` or `MONAI-Aorta` from the dropdown.
 3. Click the **Apply** button at the bottom of the panel.
 

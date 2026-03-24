@@ -45,9 +45,6 @@ For processing large cohorts (e.g., dozens of categorized DICOM folders):
 6. The module creates a temporary virtual DICOM Database, iterates through each patient, loads the volume, analyzes it, saves the results, and **clears the scene** before moving to the next case.
 7. **Output**: Once fully completed, you will find an auto-generated directory named `AAA_Cases_AortaQuanBatchResult` inside `C:\MyDataset\`. You can drag any generated `.mrb` file from this folder back into Slicer to review the full quantified analysis for that patient.
 
-> [!TIP]
-> 📸 **Screenshot**: Please insert an image of Windows Explorer or MacOS Finder showing the output `.mrb` batch results.
-> `![Batch Output Folder](DeepAorta/Resources/Screenshots/batch_output.png)`
 
 ## 4. Stability Tips & Validation
 * While in Batch Inference Mode, avoid moving your mouse extensively or clicking within the Slicer window. UI interactions can freeze the event loop or crash the execution thread.

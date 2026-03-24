@@ -43,8 +43,8 @@ To help onboard new developers or users, use this checklist to verify a successf
 - [ ] Download a freshly installed 3D Slicer (v5.6.x recommended).
 - [ ] Install via Extension Manager: **TotalSegmentator**, **MONAIAuto3DSeg**, **SlicerVMTK**, **Sandbox**.
 - [ ] Add the DeepAorta folder to Settings -> Modules -> Additional Module Paths.
-- [ ] In Slicer, navigate to the `Sample Data` module and download `DeepAorta1`.
-- [ ] Open the `DeepAorta` module. Ensure Input volume defaults heavily to DeepAorta1.
+- [ ] In Slicer, navigate to the `Sample Data` module and download `DeepAorta_CT`.
+- [ ] Open the `DeepAorta` module. Ensure Input volume defaults heavily to DeepAorta_CT_Sample.
 - [ ] Click `Apply`. Ensure the progress bar finishes without a console error.
 - [ ] Verify the scene properly displays: **1. Flattened Straightened Volume, 2. Area/Diameter Line Chart, 3. The statistical table including thresholding numbers.**
 - [ ] Validation complete.

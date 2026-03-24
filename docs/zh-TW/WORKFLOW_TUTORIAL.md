@@ -43,9 +43,6 @@ DeepAorta 模組專作於從腹部或胸部 CT 影像自動化分割並量化主
 6. 由於批次模式需要載入多個 DICOM 實體，Slicer 將自動建立一個虛擬 DICOM Database，解析每一筆後自動載入分析並存檔，存檔完畢後**清除當前畫面場景**。
 7. 成果輸出: 整個跑完後，您可以在 `C:\MyDataset\` 底下找到系統自動新增的資料夾 `AAA_Cases_AortaQuanBatchResult`。裡面會有每個案子處理完生成的包含所有計算表單的 `.mrb` 壓縮專案檔，可以直接拖回 Slicer 檢視。
 
-> [!TIP]
-> 📸 **加入截圖建議**: 請在此處加入一張檔案總管的截圖，展示輸出目錄裡面存放的各個 `.mrb` 專案檔。
-> `![Batch Output Folder](DeepAorta/Resources/Screenshots/batch_output.png)`
 
 ## 4. 防呆建議與驗收提示
 * 在 Batch 模式中，不要移動滑鼠或進行額外點擊，這可能導致執行緒凍結或報錯崩潰。

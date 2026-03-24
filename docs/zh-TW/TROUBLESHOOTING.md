@@ -41,8 +41,8 @@
 - [ ] 下載全新安裝的 3D Slicer (推薦 5.6.x 穩定版)。
 - [ ] 透過 Extension Manager 安裝: **TotalSegmentator**, **MONAIAuto3DSeg**, **SlicerVMTK**, **Sandbox**。
 - [ ] 將 DeepAorta 資料夾加入 Settings -> Modules -> Additional Module Paths。
-- [ ] 於 Slicer 中切換至 `Sample Data` 模組，下載 `DeepAorta1`。
-- [ ] 切換至 `DeepAorta` 模組，確認 Input volume 預設為 DeepAorta1。
+- [ ] 於 Slicer 中切換至 `Sample Data` 模組，下載 `DeepAorta_CT`。
+- [ ] 切換至 `DeepAorta` 模組，確認 Input volume 預設為 DeepAorta_CT_Sample。
 - [ ] 按下 `Apply` 按鈕，進度條跑完無報錯。
 - [ ] 驗證場景中包含：**1. 展開的血管 2. Area/Diameter 折線圖 3. 包含閾值判斷的統計 Table**。
 - [ ] 驗證完畢。
