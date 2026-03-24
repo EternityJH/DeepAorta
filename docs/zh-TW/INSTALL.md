@@ -47,9 +47,9 @@ DeepAorta 需要幾個 Slicer 擴充套件才能正常運作。
 
 ## 4. 驗證模組正確載入
 重啟後：
-1. 點擊主畫面的模組選擇下拉選單 (Module Selector, 通常預設為 Welcome to Slicer)。
-2. 在 `All Modules` 下，或是在 `DeepAorta` 分類下，您應該會看到名為 **DeepAorta** 的圖示。
-3. 點擊進入。如果你看到：
+1. 按下 <kbd>Ctrl</kbd>+<kbd>F</kbd> 開啟 **Module Finder**。
+2. 搜尋並打開 **DeepAorta** 模組。
+3. 如果你看到：
    - 有個 `Input volume` 的選單
    - 看到 `Model` 的下拉選單 (TotalSegmentator 或 MONAI-Aorta)
    - 看到畫面下方有 `Batch Inference` 與 `Apply` 按鈕

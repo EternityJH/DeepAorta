@@ -49,9 +49,9 @@ Because DeepAorta is a third-party module, you must add its folder to Slicer's m
 
 ## 4. Verifying Installation
 After restarting:
-1. Open the Module Selector dropdown (usually says "Welcome to Slicer" by default).
-2. Under `All Modules`, or under the `DeepAorta` category, you should see the **DeepAorta** icon.
-3. Click to open it. If you see:
+1. Open the **Module Finder** by pressing <kbd>Ctrl</kbd>+<kbd>F</kbd>.
+2. Search for and open the **DeepAorta** module.
+3. If you see:
    - An `Input volume` selector
    - A `Model` dropdown (TotalSegmentator or MONAI-Aorta)
    - `Batch Inference` and `Apply` buttons at the bottom
