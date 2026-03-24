@@ -23,22 +23,22 @@ from slicer import vtkMRMLScalarVolumeNode, \
                     vtkMRMLMarkupsCurveNode, \
                     vtkMRMLTransformNode
 
+##### Install required modules #####
+# basic module
+pip_modules = ['skimage','pandas','cv2','scipy']
+install_modules = ['scikit-image','pandas','opencv-python','scipy']
+for i in range(len(pip_modules)):    
+    try:
+        module_obj = __import__(pip_modules[i])
+    except ImportError:
+        slicer.util.pip_install('pip install ' + install_modules[i])
+
 import numpy as np
 import scipy.ndimage as ndimage
 import vtk.util.numpy_support as nps
 from skimage import measure, morphology, draw
 from scipy.ndimage import gaussian_filter
 import cv2
-
-##### Install required modules #####
-# basic module
-pip_modules = ['skimage','pandas']
-install_modules = ['scikit-image','pandas']
-for i in range(len(pip_modules)):    
-    try:
-        module_obj = __import__(pip_modules[i])
-    except:
-        slicer.util.pip_install('pip install ' + install_modules[i])
 
 #
 # DeepAorta
