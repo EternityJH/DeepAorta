@@ -18,6 +18,7 @@ DeepAorta 需要幾個 Slicer 擴充套件才能正常運作。
 
 > [!TIP]
 > 📸 **Extension Manager 截圖**
+>
 > ![Extension Manager](../../Resources/Screenshots/extension_manager.png)
 
 4. 下載完成後，請**重新啟動 (Restart)** 3D Slicer。
@@ -25,6 +26,7 @@ DeepAorta 需要幾個 Slicer 擴充套件才能正常運作。
 
 > [!TIP]
 > 📸 **PyTorch CUDA 驗證截圖**
+>
 > ![PyTorch CUDA](../../Resources/Screenshots/pytorch_cuda_ok.png)
 
 ## 3. 載入 DeepAorta 模組
@@ -37,6 +39,7 @@ DeepAorta 需要幾個 Slicer 擴充套件才能正常運作。
 
 > [!TIP]
 > 📸 **Module Path Settings 截圖**
+>
 > ![Module Path Settings](../../Resources/Screenshots/module_path.png)
 
 6. 點選 OK，將會提示您需要重新啟動以套用新模組。
