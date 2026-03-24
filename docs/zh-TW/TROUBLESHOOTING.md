@@ -46,3 +46,7 @@
 - [ ] 按下 `Apply` 按鈕，進度條跑完無報錯。
 - [ ] 驗證場景中包含：**1. 展開的血管 2. Area/Diameter 折線圖 3. 包含閾值判斷的統計 Table**。
 - [ ] 驗證完畢。
+
+---
+**導覽 (Navigation):**
+[⬅️ 上一步: 完整操作教學](WORKFLOW_TUTORIAL.md) | [🏠 回首頁](../../README_zh-TW.md)

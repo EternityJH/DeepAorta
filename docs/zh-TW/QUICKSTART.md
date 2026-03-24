@@ -32,3 +32,7 @@
 > [!TIP]
 > 📸 **加入截圖建議**: 請在此處加入一張 Slicer 滿版介面截圖，包含左側列表、3D展平主動脈、折線圖以及統計表。
 > `![Final Result Dashboard](DeepAorta/Resources/Screenshots/final_result.png)`
+
+---
+**導覽 (Navigation):**
+[⬅️ 上一步: 安裝指南](INSTALL.md) | [🏠 回首頁](../../README_zh-TW.md) | [➡️ 下一步: 完整操作教學](WORKFLOW_TUTORIAL.md)

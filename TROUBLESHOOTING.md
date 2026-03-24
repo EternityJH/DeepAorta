@@ -48,3 +48,7 @@ To help onboard new developers or users, use this checklist to verify a successf
 - [ ] Click `Apply`. Ensure the progress bar finishes without a console error.
 - [ ] Verify the scene properly displays: **1. Flattened Straightened Volume, 2. Area/Diameter Line Chart, 3. The statistical table including thresholding numbers.**
 - [ ] Validation complete.
+
+---
+**Navigation:**
+[⬅️ Previous: Workflow Tutorial](WORKFLOW_TUTORIAL.md) | [🏠 Main Page](README.md)

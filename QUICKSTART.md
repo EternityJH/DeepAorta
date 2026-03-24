@@ -34,3 +34,7 @@ When finished, a dialog box will pop up saying "Operation completed successfully
 > [!TIP]
 > 📸 **Screenshot**: Please insert an image showing the final result dashboard (Straightened Volume, the chart, and the table).
 > `![Final Result Dashboard](DeepAorta/Resources/Screenshots/final_result.png)`
+
+---
+**Navigation:**
+[⬅️ Previous: Installation](INSTALL.md) | [🏠 Main Page](README.md) | [➡️ Next: Workflow Tutorial](WORKFLOW_TUTORIAL.md)

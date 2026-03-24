@@ -51,3 +51,7 @@ DeepAorta 模組專作於從腹部或胸部 CT 影像自動化分割並量化主
 * 在 Batch 模式中，不要移動滑鼠或進行額外點擊，這可能導致執行緒凍結或報錯崩潰。
 * 出錯的案件會在執行完畢後統一保存在存檔路徑下的 `log.txt` 中，記載了哪筆資料失敗以供反查。
 * 如果畫面出現 `EmptyLabelMap` 或拉直影像消失，請確認您選擇的模型 (TotalSegmentator) 是否有因為系統資源不足被 Kill 掉（常見於內建記憶體小於 16GB 的電腦）。
+
+---
+**導覽 (Navigation):**
+[⬅️ 上一步: 快速上手](QUICKSTART.md) | [🏠 回首頁](../../README_zh-TW.md) | [➡️ 下一步: 錯誤排除](TROUBLESHOOTING.md)

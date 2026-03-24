@@ -23,6 +23,10 @@ DeepAorta 需要幾個 Slicer 擴充套件才能正常運作。
 4. 下載完成後，請**重新啟動 (Restart)** 3D Slicer。
 5. **(重要) 測試 GPU 加速**: 重啟 Slicer 後，打開 **PyTorch Util** 模組（可透過 <kbd>Ctrl</kbd>+<kbd>F</kbd> 搜尋）。檢查 CUDA 是否可用；如果顯示為 CPU，請點擊安裝帶有 CUDA 支援的 PyTorch 並再次重啟。測試確認 OK 後，模組才能發揮最快的推論速度。
 
+> [!TIP]
+> 📸 **PyTorch CUDA 驗證截圖**
+> ![PyTorch CUDA](../../Resources/Screenshots/pytorch_cuda_ok.png)
+
 ## 3. 載入 DeepAorta 模組
 作為一個第三方模組，我們需要將 `DeepAorta` 所在資料夾加入 Slicer 的模組路徑中：
 1. 將本專案存放於您固定的本機磁碟路徑中（例如解壓縮至文件夾）。
@@ -47,3 +51,7 @@ DeepAorta 需要幾個 Slicer 擴充套件才能正常運作。
    - 看到 `Model` 的下拉選單 (TotalSegmentator 或 MONAI-Aorta)
    - 看到畫面下方有 `Batch Inference` 與 `Apply` 按鈕
 **這代表您已經成功安裝並掛載了 DeepAorta 模組！**
+
+---
+**導覽 (Navigation):**
+[🏠 回首頁](../../README_zh-TW.md) | [➡️ 下一步: 快速上手 (Quickstart)](QUICKSTART.md)

@@ -25,6 +25,10 @@ DeepAorta requires several Slicer extensions to function properly.
 4. Once downloaded, please **Restart** 3D Slicer.
 5. **(Important) Verify GPU Acceleration**: After Slicer restarts, open the **PyTorch Util** module (you can find it via the search bar <kbd>Ctrl</kbd>+<kbd>F</kbd>). Check if CUDA is listed as available. If not, click the button to install PyTorch with CUDA support and restart Slicer again. This ensures fast inference times.
 
+> [!TIP]
+> 📸 **PyTorch CUDA Verification**
+> ![PyTorch CUDA](Resources/Screenshots/pytorch_cuda_ok.png)
+
 ## 3. Loading the DeepAorta Module
 Because DeepAorta is a third-party module, you must add its folder to Slicer's module paths:
 1. Keep this project folder in a permanent local directory (e.g., extracted in your Documents).
@@ -49,3 +53,7 @@ After restarting:
    - A `Model` dropdown (TotalSegmentator or MONAI-Aorta)
    - `Batch Inference` and `Apply` buttons at the bottom
 **This means you have successfully installed and loaded the DeepAorta module!**
+
+---
+**Navigation:**
+[🏠 Main Page](README.md) | [➡️ Next: Quickstart](QUICKSTART.md)

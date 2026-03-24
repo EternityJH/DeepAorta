@@ -53,3 +53,7 @@ For processing large cohorts (e.g., dozens of categorized DICOM folders):
 * While in Batch Inference Mode, avoid moving your mouse extensively or clicking within the Slicer window. UI interactions can freeze the event loop or crash the execution thread.
 * Failed cases will be logged in `Save_root/log.txt`. Open this file to trace back which specific case encountered an error.
 * If your output yields an `EmptyLabelMap` or the straightened image is completely missing, ensure your chosen model (TotalSegmentator) wasn't forcefully killed by the OS due to insufficient resources (common on machines with <16GB RAM).
+
+---
+**Navigation:**
+[⬅️ Previous: Quickstart](QUICKSTART.md) | [🏠 Main Page](README.md) | [➡️ Next: Troubleshooting](TROUBLESHOOTING.md)
