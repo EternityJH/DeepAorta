@@ -4,7 +4,7 @@
 
 **DeepAorta** is an open-source extension module built on top of 3D Slicer, specializing in fully automated segmentation, centerline extraction, vessel straightening (CPR), and geometric quantification (area and max diameter) of the aorta.
 
-![DeepAorta](DeepAorta/Resources/Icons/DeepAorta.png)
+![DeepAorta](Resources/Icons/DeepAorta.png)
 
 ## Key Features
 * **One-Click Workflow**: After inputting a CT image, it automatically executes multi-model segmentation (based on TotalSegmentator / MONAI), extracts the vessel centerline, and performs straightened reconstruction.
