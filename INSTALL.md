@@ -2,7 +2,7 @@
 
 This guide will walk you through deploying and running the DeepAorta module in a fresh 3D Slicer environment.
 
-*Read this in other languages: [繁體中文](docs/zh-TW/INSTALL.md).*
+*Read this in other languages: [繁體中文](README_zh-TW.md).*
 
 ## 1. System Requirements & Downloading Slicer
 1. Download **Slicer 5.4 or newer** from the [official 3D Slicer website](https://download.slicer.org/).
@@ -16,12 +16,14 @@ DeepAorta requires several Slicer extensions to function properly.
    - **TotalSegmentator** or **MONAIAuto3DSeg** (for initial aorta segmentation)
    - **SlicerVMTK** (Vascular Modeling Toolkit, for centerline extraction)
    - **Sandbox** (or search directly for **CurvedPlanarReformat** to ensure the vessel flattening tool is present)
+   - **PyTorch** (Required for GPU acceleration of the deep learning models)
 
 > [!TIP]
 > 📸 **Screenshot**: Please insert an image of the Extension Manager showing these installed modules here.
 > `![Extension Manager](DeepAorta/Resources/Screenshots/extension_manager.png)`
 
 4. Once downloaded, please **Restart** 3D Slicer.
+5. **(Important) Verify GPU Acceleration**: After Slicer restarts, open the **PyTorch Util** module (you can find it via the search bar <kbd>Ctrl</kbd>+<kbd>F</kbd>). Check if CUDA is listed as available. If not, click the button to install PyTorch with CUDA support and restart Slicer again. This ensures fast inference times.
 
 ## 3. Loading the DeepAorta Module
 Because DeepAorta is a third-party module, you must add its folder to Slicer's module paths:
