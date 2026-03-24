@@ -17,7 +17,7 @@ DeepAorta 模組專作於從腹部或胸部 CT 影像自動化分割並量化主
 > [!TIP]
 > 📸 **DeepAorta 操作介面截圖**
 >
-> ![DeepAorta UI](../../Resources/Screenshots/module_ui.png)
+> <img src="../../Resources/Screenshots/module_ui.png" alt="DeepAorta UI" width="600">
 
 4. 按下 **Apply**。
 5. 模組會自動執行以下流程：

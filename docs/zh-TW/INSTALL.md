@@ -19,7 +19,7 @@ DeepAorta 需要幾個 Slicer 擴充套件才能正常運作。
 > [!TIP]
 > 📸 **Extension Manager 截圖**
 >
-> ![Extension Manager](../../Resources/Screenshots/extension_manager.png)
+> <img src="../../Resources/Screenshots/extension_manager.png" alt="Extension Manager" width="600">
 
 4. 下載完成後，請**重新啟動 (Restart)** 3D Slicer。
 5. **(重要) 測試 GPU 加速**: 重啟 Slicer 後，打開 **PyTorch Util** 模組（可透過 <kbd>Ctrl</kbd>+<kbd>F</kbd> 搜尋）。檢查 CUDA 是否可用；如果顯示為 CPU，請點擊安裝帶有 CUDA 支援的 PyTorch 並再次重啟。測試確認 OK 後，模組才能發揮最快的推論速度。
@@ -27,7 +27,7 @@ DeepAorta 需要幾個 Slicer 擴充套件才能正常運作。
 > [!TIP]
 > 📸 **PyTorch CUDA 驗證截圖**
 >
-> ![PyTorch CUDA](../../Resources/Screenshots/pytorch_cuda_ok.png)
+> <img src="../../Resources/Screenshots/pytorch_cuda_ok.png" alt="PyTorch CUDA" width="600">
 
 ## 3. 載入 DeepAorta 模組
 作為一個第三方模組，我們需要將 `DeepAorta` 所在資料夾加入 Slicer 的模組路徑中：
@@ -40,7 +40,7 @@ DeepAorta 需要幾個 Slicer 擴充套件才能正常運作。
 > [!TIP]
 > 📸 **Module Path Settings 截圖**
 >
-> ![Module Path Settings](../../Resources/Screenshots/module_path.png)
+> <img src="../../Resources/Screenshots/module_path.png" alt="Module Path Settings" width="600">
 
 6. 點選 OK，將會提示您需要重新啟動以套用新模組。
 7. 重新啟動 3D Slicer。

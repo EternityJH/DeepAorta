@@ -12,7 +12,7 @@
 > [!TIP]
 > 📸 **Sample Data 模組截圖**
 >
-> ![Sample Data Module](../../Resources/Screenshots/sample_data.png)
+> <img src="../../Resources/Screenshots/sample_data.png" alt="Sample Data Module" width="600">
 
 6. 下載完成後，影像會自動載入到您的 3D Slicer 視窗中。
 
@@ -33,7 +33,7 @@
 > [!TIP]
 > 📸 **最終分析結果截圖**
 >
-> ![Final Result Dashboard](../../Resources/Screenshots/final_result.png)
+> <img src="../../Resources/Screenshots/final_result.png" alt="Final Result Dashboard" width="600">
 
 ---
 **導覽 (Navigation):**

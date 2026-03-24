@@ -14,7 +14,7 @@ If you have completed the setup steps in [INSTALL.md](./INSTALL.md), you can use
 > [!TIP]
 > 📸 **Sample Data Module Screenshot**
 >
-> ![Sample Data Module](Resources/Screenshots/sample_data.png)
+> <img src="Resources/Screenshots/sample_data.png" alt="Sample Data Module" width="600">
 
 6. Once downloaded, the volume will automatically load into your 3D Slicer views.
 
@@ -35,7 +35,7 @@ When finished, a dialog box will pop up saying "Operation completed successfully
 > [!TIP]
 > 📸 **Final Result Dashboard Screenshot**
 >
-> ![Final Result Dashboard](Resources/Screenshots/final_result.png)
+> <img src="Resources/Screenshots/final_result.png" alt="Final Result Dashboard" width="600">
 
 ---
 **Navigation:**
