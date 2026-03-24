@@ -89,36 +89,26 @@ def registerSampleData():
     # To ensure that the source code repository remains small (can be downloaded and installed quickly)
     # it is recommended to store data sets that are larger than a few MB in a Github release.
 
-    # DeepAorta1
+    # DeepAorta_CT
     SampleData.SampleDataLogic.registerCustomSampleDataSource(
-        # Category and sample name displayed in Sample Data module
         category="DeepAorta",
-        sampleName="DeepAorta1",
-        # Thumbnail should have size of approximately 260x280 pixels and stored in Resources/Icons folder.
-        # It can be created by Screen Capture module, "Capture all views" option enabled, "Number of images" set to "Single".
-        thumbnailFileName=os.path.join(iconsPath, "DeepAorta1.png"),
-        # Download URL and target file name
-        uris="https://github.com/Slicer/SlicerTestingData/releases/download/SHA256/998cb522173839c78657f4bc0ea907cea09fd04e44601f17c82ea27927937b95",
-        fileNames="DeepAorta1.nrrd",
-        # Checksum to ensure file integrity. Can be computed by this command:
-        #  import hashlib; print(hashlib.sha256(open(filename, "rb").read()).hexdigest())
-        checksums="SHA256:998cb522173839c78657f4bc0ea907cea09fd04e44601f17c82ea27927937b95",
-        # This node name will be used when the data set is loaded
-        nodeNames="DeepAorta1"
+        sampleName="DeepAorta_CT",
+        thumbnailFileName=os.path.join(iconsPath, "DeepAorta.png"),
+        uris="https://github.com/EternityJH/DeepAorta/releases/download/v1.0.0/Case_2_CT.nii.gz",
+        fileNames="Case_2_CT.nii.gz",
+        checksums="SHA256:844bc40e8cc55f07016e22cd9cf55c75c47db1901e3666b571e337f8103e522a",
+        nodeNames="DeepAorta_CT_Sample"
     )
 
-    # DeepAorta2
+    # DeepAorta_CTA
     SampleData.SampleDataLogic.registerCustomSampleDataSource(
-        # Category and sample name displayed in Sample Data module
         category="DeepAorta",
-        sampleName="DeepAorta2",
-        thumbnailFileName=os.path.join(iconsPath, "DeepAorta2.png"),
-        # Download URL and target file name
-        uris="https://github.com/Slicer/SlicerTestingData/releases/download/SHA256/1a64f3f422eb3d1c9b093d1a18da354b13bcf307907c66317e2463ee530b7a97",
-        fileNames="DeepAorta2.nrrd",
-        checksums="SHA256:1a64f3f422eb3d1c9b093d1a18da354b13bcf307907c66317e2463ee530b7a97",
-        # This node name will be used when the data set is loaded
-        nodeNames="DeepAorta2"
+        sampleName="DeepAorta_CTA",
+        thumbnailFileName=os.path.join(iconsPath, "DeepAorta.png"),
+        uris="https://github.com/EternityJH/DeepAorta/releases/download/v1.0.0/Case_2_CTA.nii.gz",
+        fileNames="Case_2_CTA.nii.gz",
+        checksums="SHA256:3142adaefc445f1ba89609305cffbc8ca18b946a4f637539d72b0d438a72fcd4",
+        nodeNames="DeepAorta_CTA_Sample"
     )
 
 
